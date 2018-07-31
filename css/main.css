@@ -19,11 +19,30 @@
 }
 
 body {
-    background: url(../img/witewall_3.jpg) repeat left top scroll;
+    background: url(../img/background.jpg) repeat left top scroll;
 }
 
 html,body {
   height: 100%;
+}
+
+.valores_coyco{
+    color: #3a5667;
+}
+.valores_coyco h2, .proyectos_coyco h2{
+    color: #3a5667;
+    font-size: 20px;
+    font-family: avenirB;
+}
+
+.proyectos_coyco p{
+    color: #3a5667;
+    font-size: 15px;
+}
+
+.somos_un_grupo{
+    font-size: 25px;
+    color: #3a5667;
 }
 
 .btn_header{
@@ -782,9 +801,14 @@ html,body {
     font-size: 15px;
 }
 
+
+.texto_index{
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
 .imagen_construyendo_embergadura{
-    max-width: 500px;
-    width: 80%;
+    max-width: 230px;
     align-self: start;
 }
 
@@ -888,6 +912,19 @@ h1{
     opacity: 0.7;
 }
 
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 0px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    color: #fff;
+    text-align: center;
+}
+
 .row {
   margin-left: 0;
   margin-right: 0;
@@ -965,6 +1002,14 @@ ul, menu, dir {
 }
 
 
+.celular_gigante{
+    max-width: 400px;
+}
+
+.thumbs_magicos{
+    border: 1px solid #5b7e96;
+}
+
 .alineado_justificado{
     text-align: justify;
 }
@@ -975,7 +1020,37 @@ ul, menu, dir {
 }
 
 /* TEMPLATE 4 */
-@media (min-width: 688px){
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .texto_index{
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+  
+    .imagen_construyendo_embergadura {
+        max-width: 330px;
+        width: 80%;
+        align-self: start;
+    }
+  
+}
+
+
+
+@media (min-width: 1025px){
+    .texto_index{
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+
+    .carousel-caption {
+        padding-top: 20px;
+    }
+    .imagen_construyendo_embergadura {
+        max-width: 500px;
+        width: 80%;
+        align-self: start;
+    }
     .m-t-30-m{
         margin-top: 0px;
     }
