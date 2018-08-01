@@ -19,7 +19,7 @@
                 <div class="col-12 h-100">
                     <div class="navegador_escritorio justify-content-center align-items-center">
                             <div class="col-3 align-self-end p-b-10">
-                              <a class="marca-navegacion" href="#">
+                              <a class="marca-navegacion" href="index.php">
                                 <img src="img/coycoce_logo.svg" class="d-inline-block align-top" alt="">
                                 
                               </a>
@@ -111,18 +111,28 @@
                 
             </nav>
 
-            <div class="row p-t-80 p-b-50">
+            <div class="row p-t-100 p-b-50">
                 <div class="col-12">
                     <div class="ancho_800">
                         <div class="row justify-content-center" id=''>
                             <div class="col-12">
-                                <img class="w-100" src="img/nuestros_valores_1.jpg" alt="nuestros valores COYCOCE">
+                                <div class="row">
+                                    <div class="col-12">
+                                    <img class="w-100" src="img/nuestros_valores_1.jpg" alt="nuestros valores COYCOCE">
+                                        
+                                    </div>
+                                    
+                                </div>
                             </div>
                             <div class="col-12 m-t-10 m-b-10">
-                                <img class="w-100" src="img/nuestro_valores_barra.svg" alt="nuestros valores COYCOCE">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img class="w-100" src="img/nuestro_valores_barra.svg" alt="nuestros valores COYCOCE">
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-12">
-                                <div class="row justify-content-between align-items-center">
+                                <div class="row justify-content-between align-items-start">
                                     <div class="col-11 col-sm-4 valores_coyco">
                                         <img class='w-100' src='img/nuestros_valores_2.jpg' alt="">
                                         <h2 class='m-t-10'>CALIDAD</h2>
@@ -145,17 +155,23 @@
                                     <div class="col-12 alineado_centro">    
                                             <h2 class="somos_un_grupo"> Somos un Grupo de profesionales de la construcción</h2>
                                     </div>
-                                    <div class="wrap_grupo">
-                                        <img src="img/arquitectura.svg" alt="arquitectura COYCOCE" class="w-100">
-                                    </div>
-                                    <div class="wrap_grupo">
-                                        <img src="img/ingenieria_civil.svg" alt="iingenieria COYCOCE" class="w-100">
-                                    </div>
-                                    <div class="wrap_grupo">
-                                        <img src="img/mantenimiento.svg" alt="mantenimiento COYCOCE" class="w-100">
-                                    </div>
-                                    <div class="wrap_grupo">
-                                        <img src="img/administracion.svg" alt="administracion COYCOCE" class="w-100">
+                                    <div class="col-12 m-t-20">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="wrap_grupo">
+                                                <img src="img/arquitectura.svg" alt="arquitectura COYCOCE" class="w-100">
+                                            </div>
+                                            <div class="wrap_grupo m-l-5 m-r-5">
+                                                <img src="img/ingenieria_civil.svg" alt="iingenieria COYCOCE" class="w-100">
+                                            </div>
+                                            <div class="wrap_grupo m-r-5">
+                                                <img src="img/mantenimiento.svg" alt="mantenimiento COYCOCE" class="w-100">
+                                            </div>
+                                            <div class="wrap_grupo">
+                                                <img src="img/administracion.svg" alt="administracion COYCOCE" class="w-100">
+                                            </div>
+                                            
+                                        </div>
+                                            
                                     </div>
 
                                 </div>

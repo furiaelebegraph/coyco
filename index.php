@@ -21,7 +21,7 @@
                 <div class="col-12 h-100">
                     <div class="navegador_escritorio justify-content-center align-items-center">
                             <div class="col-3 align-self-end p-b-10">
-                              <a class="marca-navegacion" href="#">
+                              <a class="marca-navegacion" href="index.php">
                                 <img src="img/coycoce_logo.svg" class="d-inline-block align-top" alt="">
                                 
                               </a>
@@ -44,7 +44,7 @@
                                         <div class='btn_header'>BIENES RAÍCES
                                         </div>
                                     </a> 
-                                    <a class="btn_menu_nav h-100 alineado_centro" href="#contacto">
+                                    <a class="btn_menu_nav h-100 alineado_centro" href="contacto.php">
                                         <div class='btn_header'>CONTACTO 
                                         </div>
                                     </a>

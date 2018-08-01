@@ -64,7 +64,7 @@
                 <div class="col-12 h-100">
                     <div class="navegador_escritorio justify-content-center align-items-center">
                             <div class="col-3 align-self-end p-b-10">
-                              <a class="marca-navegacion" href="#">
+                              <a class="marca-navegacion" href="index.php">
                                 <img src="img/coycoce_logo.svg" class="d-inline-block align-top" alt="">
                                 
                               </a>
@@ -169,7 +169,7 @@
                             <?php if (!empty($msg)) {
                                 echo "<h2>$msg</h2>";
                             } ?>
-                            <div class="col-12">
+                            <div class="col-12  m-t-50">
                                 <form  name="form1" method='POST'>
 
                                     <div class="form-group">
